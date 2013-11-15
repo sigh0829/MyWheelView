@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/wb_wheelview_topbar_bg" >
+
+        <Button
+            android:id="@+id/wv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/wb_wheelview_back" />
+
+        <Button
+            android:id="@+id/wv_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/wb_wheelview_ok" />
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/wv_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wb_wheel_bg"
+        android:orientation="horizontal" >
+
+        <com.wind.mywheelview.wheelview.WheelView
+            android:id="@+id/wheelview"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="2" />
+        
+        <com.wind.mywheelview.wheelview.WheelView
+            android:id="@+id/wheelview1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1" />
+        
+        <com.wind.mywheelview.wheelview.WheelView
+            android:id="@+id/wheelview2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1" />
+        
+        <com.wind.mywheelview.wheelview.WheelView
+            android:id="@+id/wheelview3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

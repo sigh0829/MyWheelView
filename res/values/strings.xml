@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyWheelView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="whellView">WheelView</string>
+    <string name="timePicker">时间控件</string>
+    <string name="back">返回</string>
+    <string name="sure">确定</string>
+    <string name="descr_image">Image</string>
+
+</resources>
