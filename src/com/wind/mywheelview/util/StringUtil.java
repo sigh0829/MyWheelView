@@ -21,6 +21,24 @@ public class StringUtil {
 		String w = "日一二三四五六".substring(week, week + 1);
 		return w;
 	}
+	
+	/**
+	 * 求星期组的下标
+	 * @param y
+	 * @param m
+	 * @param d
+	 * @return
+	 */
+	public static int day1(int y, int m, int d) {
+		if (m == 1 || m == 2) {
+			m += 12;
+			y--;
+		}
+		int week = d + 2 * m + 3 * (m + 1) / 5 + y + y / 4 - y / 100 + y / 400
+				+ 1;
+		week = week % 7;
+		return week;
+	}
 
 	/**
 	 * 计算指定年份的某个月有多少天
@@ -63,6 +81,7 @@ public class StringUtil {
 		String leap = (y % 400 == 0 || y % 4 == 0 && y % 100 != 0) ? "闰年" : "平年";
 		return leap;
 	}
+	
 	/**
 	 *  判断该年是不是闰年
 	 * @param y

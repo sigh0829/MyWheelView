@@ -9,16 +9,19 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/whellView" />
     
+    <TextView android:id="@+id/main_textView" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/main_button" android:layout_marginLeft="10dip" android:text="@string/hello_world" />
+    
      <Button
-        android:id="@+id/button1"
+        android:id="@+id/main_button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button"
+        android:layout_below="@id/main_button"
         android:layout_marginTop="10dip"
         android:text="@string/timePicker" />
 

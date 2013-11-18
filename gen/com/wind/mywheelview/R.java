@@ -43,20 +43,21 @@ public final class R {
         public static final int wb_wheelview_topbar_bg=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000d;
-        public static final int button=0x7f0a0000;
-        public static final int button1=0x7f0a0001;
-        public static final int button_sure=0x7f0a0005;
-        public static final int datepicker=0x7f0a0003;
-        public static final int expressen_condition_date=0x7f0a0002;
-        public static final int timepicker=0x7f0a0004;
-        public static final int wheelview=0x7f0a0009;
-        public static final int wheelview1=0x7f0a000a;
-        public static final int wheelview2=0x7f0a000b;
-        public static final int wheelview3=0x7f0a000c;
-        public static final int wv_back=0x7f0a0006;
-        public static final int wv_linearLayout=0x7f0a0008;
-        public static final int wv_sure=0x7f0a0007;
+        public static final int action_settings=0x7f0a000e;
+        public static final int button_sure=0x7f0a0006;
+        public static final int datepicker=0x7f0a0004;
+        public static final int expressen_condition_date=0x7f0a0003;
+        public static final int main_button=0x7f0a0000;
+        public static final int main_button1=0x7f0a0002;
+        public static final int main_textView=0x7f0a0001;
+        public static final int timepicker=0x7f0a0005;
+        public static final int wheelview=0x7f0a000a;
+        public static final int wheelview1=0x7f0a000b;
+        public static final int wheelview2=0x7f0a000c;
+        public static final int wheelview3=0x7f0a000d;
+        public static final int wv_back=0x7f0a0007;
+        public static final int wv_linearLayout=0x7f0a0009;
+        public static final int wv_sure=0x7f0a0008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

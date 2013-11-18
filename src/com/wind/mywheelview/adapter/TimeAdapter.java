@@ -1,8 +1,13 @@
 package com.wind.mywheelview.adapter;
 
+/**
+ * WheelView显示字符串的适配器
+ * @author zlk
+ *
+ */
 public class TimeAdapter implements WheelAdapter {
 	
-	/** 上下午 */
+	/** 显示的字符串数组 */
 	private String[] strings = null;
 	
 	public TimeAdapter(String[] strings) {
